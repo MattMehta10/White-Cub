@@ -1,12 +1,37 @@
-# React + Vite
+# 🐾 White Cub - Vegan Dairy-Free Ice Cream Brand Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![White Cub Banner](https://github.com/MattMehta10/White-Cub/assets/banner-image.png) <!-- optional if you have banner image -->
 
-Currently, two official plugins are available:
+White Cub is India's pioneering brand for dairy-free, cholesterol-free indulgence—crafted for every compassionate choice. This website is a front-end showcase built using React, TailwindCSS, and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📜 About White Cub
+White Cub Dairy-Free Ice Creams were specifically created to fill a crucial gap in the Indian market. Before White Cub, there was no ice cream suitable for people looking for dairy-free and healthy alternatives.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ India’s first cholesterol-free, trans-fat-free, and dairy-free foods brand  
+✅ Includes dairy-free alternatives like butters, curds, and more  
+✅ Alumni of WEE Foundation & Nexus Innovation Incubator (powered by the US Embassy & ACIR)
+
+---
+
+## 🌟 Features
+- Clean and vibrant landing page
+- Brand slogan and introductory statement
+- Smooth product showcase with a 3D effect
+- Fully responsive design
+- Eye-catching color gradients
+- Minimalistic, modern look suitable for a vegan ice cream brand
+- Social media integration icons
+
+---
+
+## 🚀 Tech Stack
+- **React.js** (Vite for fast build & dev environment)
+- **TailwindCSS** (for styling)
+- **React-Three/Fiber** (for 3D elements)
+- **Framer Motion / React-Spring** (for animations)
+- **Git & GitHub** for version control
+
+---
+
