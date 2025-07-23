@@ -9,7 +9,8 @@ const PrevItems = () => {
     .slice(0, 5);
 
   return (
-    <div className="w-full bg-cyan-700 min-h-screen flex items-center justify-center px-15">
+    <div className="w-full relative bg-cyan-700 min-h-screen flex items-center justify-center px-15">
+        <h1 className=' absolute top-0 text-4xl font-extrabold'>Pick Our Best</h1>
         {/* Left: Grid of 4 cards */}
         <div className="w-full grid grid-cols-5 pt-55 gap-2">
           {randomProducts.map((product, index) => (

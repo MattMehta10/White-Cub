@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import ProductType from '../Product/SubComponents/Producttype';
+import TypeOfProduct from '../Product/SubComponents/TypeOfProduct';
+
 
 const Category = () => {
     const [type,settype] = useState(["Popsicles","Plant Based Exotic IceCreams","Plant Based Sugar Free IceCreams","Plant Based Butter","Plant Based Curd","Plant Based Premium IceCream"])
@@ -11,7 +12,7 @@ const Category = () => {
         {/* Left: Grid of 4 cards */}
         <div className="w-2/3 grid grid-cols-3 grid-rows-2 gap-y-9">
           {[0,1,2,3,4,5].map((index) => (
-            <ProductType key={index} type={type[index]} img={img[index]} />
+            <TypeOfProduct key={index} type={type[index]} img={img[index]} />
             
           ))}
         </div>

@@ -3,7 +3,7 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { IoEye } from "react-icons/io5";
 import { GiShoppingCart } from "react-icons/gi";
 
-const ProductType = ({type,img}) => {
+const TypeOfProduct = ({type,img}) => {
     return (
         
     <div className='relative group w-65  h-65'>
@@ -19,4 +19,4 @@ const ProductType = ({type,img}) => {
   );
 };
 
-export default ProductType;
+export default TypeOfProduct;
